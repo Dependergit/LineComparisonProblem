@@ -25,5 +25,9 @@ public class LineComparisonProblem
         double length2 = (x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
         System.out.println(length2);
 
+        String line1 = String.valueOf(length1);
+        String line2 = String.valueOf(length2);
+        System.out.println(line1.equals(line2));
+
     }
 }
