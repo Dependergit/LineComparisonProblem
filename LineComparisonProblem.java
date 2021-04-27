@@ -29,5 +29,20 @@ public class LineComparisonProblem
         String line2 = String.valueOf(length2);
         System.out.println(line1.equals(line2));
 
+        int comparsion = line1.compareTo(line2);
+        System.out.println("comparsion of line1 and line2" + "   " + comparsion);
+        if(comparsion==0)
+        {
+            System.out.println("line1 and line2 are equals");
+        }
+        else if (comparsion<0)
+        {
+            System.out.println("line1 is less than line2 basis on length");
+        }
+        else
+        {
+            System.out.println("line1 is greater than line2 basis on length");
+        }
+
     }
 }
